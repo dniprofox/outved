@@ -1,0 +1,113 @@
+.clients {
+  padding-top: 60px;  
+}
+.clients__desc {  
+  max-width: 910px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+////country
+.country {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(../img/country_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%; 
+  height: 100%; 
+  text-align: center;  
+}
+.country__inner {
+  text-align: center;
+}
+.analysis__title,
+.country__title {
+  max-width: 590px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
+}
+//////country-slider
+.country-slider__item { 
+  margin-top: 80px;   
+  display: flex;  
+}
+.country-slider {  
+  .icon-angle-left,
+  .icon-angle-right {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: rgba(2, 33, 60, .6);      
+    position: absolute;
+    right: 0px;
+    top: -48px;
+    font-size: 40px;
+    color: #3292bf;    
+    z-index: 5;   
+    &:hover {
+      color: #3fc4f6;
+    }
+  }
+  .icon-angle-left {
+    right: 56px;
+  }
+  .country-slider-arrow {
+    display: flex;
+  }  
+}
+.country-slider__list {
+  width: 25%;
+  padding: 0px 15px;
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 38px;
+    height: 24px;
+    margin-right: 20px;    
+  }
+  span {
+    font-size: 17px;
+    font-weight: 300;
+    color: #b3defa;
+  }
+  
+}
+.country__nav {  
+  margin-top: 40px;  
+  color: #3292bf;  
+  .nav__item {
+    display: block;
+    padding-top: 12px;
+    max-width: 174px;    
+    height: 48px;  
+    border-radius: 5px;  
+    background-color: rgba(2, 33, 60, .6);
+    transition: $trans;
+    outline: none;
+    &:hover {
+      background-color: #3fc4f6;
+      color: rgba(2, 33, 60, .8);
+    }
+  }
+  .slick-track {
+    margin-left: -50px;   
+  }
+  .slick-list.draggable {
+    padding: 0px 0px;
+  }   
+}
+.slick-current {
+  .nav__item {      
+  background-color: #3fc4f6;
+  color: rgba(2, 33, 60, .8);
+  }  
+}
