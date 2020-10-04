@@ -1,0 +1,54 @@
+.export__inner {
+  text-align: center;
+  padding-top: 60px;
+}
+.clients__desc {
+  max-width: 910px; 
+}
+.export__items {
+  margin-bottom: 50px;
+}
+.analysis__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 75px;
+  background-image: url(../img/analysis_bg.png);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.analysis__title {
+  max-width: 657px;
+}
+.analysis__content {
+ margin-top: 56px;
+ margin-bottom: 46px;
+ padding: 46px 15px;
+  max-width: 1170px;
+  width: 100%;
+  background-color: rgba(2,33,60,0.6);
+  
+}
+.analysis__content-title {   
+  max-width: 870px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Rotondac';
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 400,300;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.analysis__content-desc {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 35px;
+  color: #b3defa;
+}
